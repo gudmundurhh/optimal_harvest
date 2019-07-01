@@ -87,7 +87,7 @@ ylabel('Value V_0(x)')
 figure
 plot(xc,U0.*xc','LineWidth',2)
 xlabel('Biomass x')
-ylabel('Optimal policy µ^*(x)')
+ylabel('Optimal policy Âµ^*(x)')
 % title('Numerical solution for the optimal harvest rate')
 
 dt=0.0001;%0.0001; % time steps for euler method
@@ -116,7 +116,7 @@ for i=1:Ns
         %X(i,k+1) = X(i,k)+(r*X(i,k)*(1-X(i,k))-U(a,k)*X(i,k))*dt+sigma*X(i,k)*dW(i,k);
         Y(i,k+1) = Y(i,k)+(r*Y(i,k)*(1-Y(i,k))-Y(i,k)/2)*dt+sigma*X(i,k)*dW(i,k);
         profY(i,k)=sqrt(Y(i,k)/2*Y(i,k))*dt;
-        %Fishing mortality ef U*x harvest ef það er bara u
+        %Fishing mortality ef U*x harvest ef Ã¾aÃ° er bara u
     end
 end
 %removing the last elements to correspond with the tvec
