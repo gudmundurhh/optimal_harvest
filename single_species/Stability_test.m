@@ -28,7 +28,7 @@ dD = @(x) sigma.^2*x;
 UMaxVec=[3,6,10];
 XmaxVec=[5,6,7];
 
-% Debug this
+
 for e=1:length(XmaxVec)
     for g=1:length(UMaxVec)
         %Upperbound on fisheris mortality
