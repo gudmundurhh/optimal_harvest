@@ -1,4 +1,4 @@
-%Quiver plot for the deter
+%Quiver plot for the Rosenzweig-MacArthur system
 clear all
 clc
 
