@@ -8,4 +8,4 @@ Stability_test.m computes number of numerical solutions under different conditio
 
 msy_single.m plots the maximum sustainable yield state as well as the optimal harvest state.
 
-ScalarStdWienerProcess.m is the noise generator for the system. This code snippet was provied in a course I attended in the spring of 2018. The course is called 02685 Scientific Computing for differential equations and was taught by Allan Peter Engsig-Karup, John Bagterp Jørgensen and Dimitri Boiroux at the Technical Yniversity of Denmark
+ScalarStdWienerProcess.m is the noise generator for the system. This code snippet was provided in a course I attended in the spring of 2018. The course is called 02685 Scientific Computing for differential equations and was taught by Allan Peter Engsig-Karup, John Bagterp Jørgensen and Dimitri Boiroux at the Technical Yniversity of Denmark
