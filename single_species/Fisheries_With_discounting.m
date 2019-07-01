@@ -88,7 +88,7 @@ for k=1:length(dr)
     hold on
     plot(xc,U0(:,k).*xc','LineWidth',2)
     xlabel('Biomass x')
-    ylabel('Optimal Policy µ^*(x)')
+    ylabel('Optimal Policy Âµ^*(x)')
     
     %Figure(3) plots the zoomed in poilicy plot
     figure(3)
@@ -96,7 +96,7 @@ for k=1:length(dr)
     plot(xc,U0(:,k).*xc','LineWidth',2)
     axis([0 1 0 2])
     xlabel('Biomass x')
-    ylabel('Optimal Policy µ^*(x)')
+    ylabel('Optimal Policy Âµ^*(x)')
     
 end
 
