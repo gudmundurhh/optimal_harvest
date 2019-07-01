@@ -95,7 +95,7 @@ for e=1:length(XmaxVec)
         hold on
         plot(xc,U0.*xc','LineWidth',2)
         xlabel('Biomass x')
-        ylabel('Optimal Policy µ^*(x)')
+        ylabel('Optimal Policy Âµ^*(x)')
 
     end
 end
